@@ -1,5 +1,5 @@
-import React from 'react';
-import { AlertTriangle, Camera, Send } from 'lucide-react';
+ 
+import { AlertTriangle, Camera } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 
 const IncidentReport = () => {

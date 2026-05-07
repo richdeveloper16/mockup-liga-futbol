@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 import { 
   Users, 
   Shield, 
@@ -6,8 +6,6 @@ import {
   Phone, 
   ChevronRight,
   Star,
-  CheckCircle2,
-  Clock,
   Briefcase
 } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';

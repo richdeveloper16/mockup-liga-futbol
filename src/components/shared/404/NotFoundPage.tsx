@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 import { Link } from 'react-router-dom';
 import { Trophy, ArrowLeft, Ghost, Search } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';

@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 // 1. Importa Link desde react-router-dom
 import { Link } from 'react-router-dom'; 
 import { 
@@ -9,10 +9,9 @@ import {
   AlertCircle, 
   MoreVertical,
   FileText,
-  UserPlus,
   // 2. Elimina 'Link' de lucide-react para evitar conflictos
 } from 'lucide-react';
-import DashboardLayout from '@/components/layout/DashboardLayout';
+
 
 const PlayListPage = () => {
   const players = [

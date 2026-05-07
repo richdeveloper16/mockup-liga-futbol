@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { 
   ChevronLeft, 
   Target, 
@@ -11,7 +11,7 @@ import {
   Award
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import DashboardLayout from '../layout/DashboardLayout';
+
 
 const PlayerDetailPage = () => {
   return (

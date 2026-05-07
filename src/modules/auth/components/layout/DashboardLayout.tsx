@@ -1,7 +1,7 @@
 import  { useState } from 'react';
 import { Header } from './Header'; // Tu componente Header
 import { Sidebar } from './Sidebar'; // Tu componente Sidebar
-import { LayoutProps } from '../../interfaces/IUI';
+import { LayoutProps } from '../../../../interfaces/IUI';
 
 
 const DashboardLayout = ({ children }:LayoutProps) => {

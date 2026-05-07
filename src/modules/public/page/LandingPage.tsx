@@ -1,8 +1,7 @@
-import React from 'react';
+ 
 import { 
   Trophy, 
-  BookOpen, 
-  Image as ImageIcon, 
+  BookOpen,  
   Mail, 
   ChevronRight, 
   ArrowUpRight, 

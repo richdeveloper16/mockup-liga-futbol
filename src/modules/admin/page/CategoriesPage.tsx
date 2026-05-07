@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 import { Layers, Shield, ArrowRight, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom'; // Asegúrate de que Link esté bien importado
 import DashboardLayout from '@/components/layout/DashboardLayout';

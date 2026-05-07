@@ -1,5 +1,5 @@
-import React from 'react';
-import { Calendar, Trophy, ArrowRight, X } from 'lucide-react';
+ 
+import { ArrowRight, X } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 
 const NewSeasonForm = () => {

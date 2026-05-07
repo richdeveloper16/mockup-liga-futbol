@@ -1,6 +1,6 @@
 
 import { Menu } from 'lucide-react';
-import { Props } from '../../interfaces/IUI';
+import { Props } from '../../../../interfaces/IUI';
 export const Header = ({ onToggle }:Props) => (
   <header className="h-20 bg-white/80 backdrop-blur-md border-b border-blue-50 sticky top-0 z-40 px-8 flex items-center justify-between">
     <div className="flex items-center gap-4">

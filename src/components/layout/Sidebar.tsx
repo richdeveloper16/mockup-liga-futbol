@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom'; // Asegúrate de tener react-router-dom instalado
 import { 
   ChevronDown, BarChart3, Trophy, Users, MapPin, DollarSign, Gavel, Settings,
@@ -335,7 +335,7 @@ const Sidebar = () => {
             {section.items.map((item) => {
               const isOpen = openMenus === item.label;
               const hasSubItems = item.subItems && item.subItems.length > 0;
-              const isItemActive = location.pathname.startsWith(item.path);
+              const isItemActive = location.pathname.startsWith(item.path || "#" );
 
               return (
                 <div key={item.label} className="group">
@@ -355,7 +355,7 @@ const Sidebar = () => {
                     </button>
                   ) : (
                     <Link
-                      to={item.path}
+                      to={item.path|| "#"}
                       className={`w-full flex items-center px-4 py-3 rounded-xl transition-all duration-300 ${
                         isItemActive ? 'bg-emerald-500/10 text-white' : 'text-slate-400 hover:bg-white/5 hover:text-white'
                       }`}

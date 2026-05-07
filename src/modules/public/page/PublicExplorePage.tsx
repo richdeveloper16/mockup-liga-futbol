@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 import { Search, Filter, Trophy, Users, MapPin, ArrowUpRight } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Camera, Maximize2, Share2, ImageIcon } from 'lucide-react';
+ 
+import { Camera, Share2 } from 'lucide-react';
 
 const PhotoGallery = () => {
   const albums = [
