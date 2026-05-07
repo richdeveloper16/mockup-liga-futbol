@@ -1,4 +1,4 @@
-import { StatCardProps } from '../../interfaces/IUI';
+import { StatCardProps } from '../../../../interfaces/IUI';
 
 export const StatCard = ({ label, value, gradient }: StatCardProps) => (
   <div className={`bg-gradient-to-br ${gradient} p-6 rounded-[2rem] text-white shadow-lg shadow-blue-200/40`}>

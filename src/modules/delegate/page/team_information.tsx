@@ -1,13 +1,9 @@
-import React from 'react';
+ 
 import { 
   Shield, 
-  Camera, 
   Mail, 
   Phone, 
   MapPin, 
-  Globe, 
-  User, 
-  Save,
   Trophy,
   Users,
   Star,

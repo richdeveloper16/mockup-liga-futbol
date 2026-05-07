@@ -1,5 +1,5 @@
-import React from 'react';
-import { QrCode, X, Zap, CheckCircle2 } from 'lucide-react';
+
+import { X, Zap, CheckCircle2 } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 
 const QRScanner = () => {

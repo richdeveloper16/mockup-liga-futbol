@@ -1,5 +1,5 @@
-import React from 'react';
-import { Layers, Users, ShieldPlus } from 'lucide-react';
+ 
+import { Layers,  ShieldPlus } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 
 const NewCategoryForm = () => {

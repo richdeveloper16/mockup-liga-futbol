@@ -1,13 +1,10 @@
-import React from 'react';
+ 
 import { 
   CreditCard, 
   CheckCircle2, 
-  Clock, 
   AlertCircle, 
   Download, 
-  ExternalLink,
   Receipt,
-  Wallet
 } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 

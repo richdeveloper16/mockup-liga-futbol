@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Target, ShieldAlert, Users, Timer, Save } from 'lucide-react';
+
+import { Target, Timer, Save } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 
 const MatchSheet = () => {

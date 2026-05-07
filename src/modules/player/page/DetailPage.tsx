@@ -1,12 +1,5 @@
-import React from 'react';
+ 
 import { 
-  Search, 
-  Filter, 
-  CheckCircle2, 
-  XCircle, 
-  AlertCircle, 
-  MoreVertical,
-  FileText,
   UserPlus
 } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
@@ -15,25 +8,7 @@ import PlayerDetailPage from '@/components/shared/PlayerDetailPage';
 
 const DetailPage = () => {
   // Datos simulados de la plantilla
-  const players = [
-    { id: 1, name: "Carlos Rivera", curp: "RIVC90...", status: "active", position: "Delantero", dorsal: "9", image: "CR" },
-    { id: 2, name: "Luis Morales", curp: "MORL92...", status: "pending", position: "Portero", dorsal: "1", image: "LM" },
-    { id: 3, name: "Erik Santos", curp: "SANE95...", status: "active", position: "Medio", dorsal: "10", image: "ES" },
-    { id: 4, name: "Juan Peña", curp: "PENJ91...", status: "rejected", position: "Defensa", dorsal: "4", image: "JP" },
-  ];
 
-  const getStatusBadge = (status: string) => {
-    switch (status) {
-      case 'active':
-        return <span className="flex items-center gap-1.5 text-emerald-400 bg-emerald-400/10 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider"><CheckCircle2 className="h-3 w-3" /> Habilitado</span>;
-      case 'pending':
-        return <span className="flex items-center gap-1.5 text-yellow-500 bg-yellow-500/10 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider"><AlertCircle className="h-3 w-3" /> Pendiente</span>;
-      case 'rejected':
-        return <span className="flex items-center gap-1.5 text-red-500 bg-red-500/10 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider"><XCircle className="h-3 w-3" /> Rechazado</span>;
-      default:
-        return null;
-    }
-  };
 
   return (
 

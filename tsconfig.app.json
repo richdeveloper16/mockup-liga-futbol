@@ -24,10 +24,11 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Path Aliases - ¡AÑADE ESTO AQUÍ! */
-    "baseUrl": ".",
+    //"baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["vite/client"]
   },
   "include": ["src"]
 }

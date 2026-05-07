@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 import { GitBranch, ListOrdered, LayoutGrid, Check } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 

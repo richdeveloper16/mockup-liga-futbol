@@ -7,7 +7,7 @@ import {
   UserPlus, TicketPercent, Utensils
 } from 'lucide-react';
 
-import { SidebarProps } from '../../interfaces/IUI';
+import { SidebarProps } from '../../../../interfaces/IUI';
 
 const menuItems = [
   { icon: <LayoutDashboard size={22} />, label: 'Inicio', path: '/dashboard' },

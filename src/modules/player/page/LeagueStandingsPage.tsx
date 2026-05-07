@@ -1,12 +1,9 @@
-import React from 'react';
+ 
 import { 
   Trophy, 
-  Target, 
-  ChevronRight, 
+  Target,  
   Medal, 
-  Users,
-  TrendingUp,
-  Minus
+  TrendingUp
 } from 'lucide-react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 

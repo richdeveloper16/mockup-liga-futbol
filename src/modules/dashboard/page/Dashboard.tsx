@@ -1,6 +1,6 @@
 import DashboardLayout from '../../../components/layout/DashboardLayout';
 import { StatCard } from '../../../components/dashboard/StatCard';
-import { Users, TrendingUp, DollarSign, Activity, UsersIcon, CalendarIcon } from 'lucide-react';
+import { TrendingUp, Activity, UsersIcon, CalendarIcon } from 'lucide-react';
 
 const DashboardPage = () => {
   return (

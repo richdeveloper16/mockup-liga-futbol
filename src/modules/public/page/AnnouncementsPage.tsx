@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 import { Megaphone, Calendar, ChevronRight, Bell, Search } from 'lucide-react';
 
 const AnnouncementsPage = () => {

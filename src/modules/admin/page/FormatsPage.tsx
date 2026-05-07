@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 import { GitBranch, ListOrdered, LayoutGrid, CheckCircle2, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import DashboardLayout from '@/components/layout/DashboardLayout';

@@ -1,5 +1,5 @@
 // src/components/dashboard/StatCard.tsx
-import React from 'react';
+ 
 
 // Agrega 'export' aquí para que sea un named export
 export const StatCard = ({ title, value, icon: Icon, trend }: any) => (
