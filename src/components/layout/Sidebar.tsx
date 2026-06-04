@@ -40,7 +40,8 @@ const Sidebar = () => {
           subItems: [
             { label: 'Temporadas', path: '/admin/admin-seasons' },
             { label: 'Categorías', path: '/admin/admin-categories' },
-            { label: 'Formatos de Competencia', path: '/admin/admin-formats' }
+            { label: 'Formatos de Competencia', path: '/admin/admin-formats' },
+            { label: 'Configuración Torneo', path: '/admin/admin-formats' }
           ] 
         },
         { 
@@ -73,11 +74,11 @@ const Sidebar = () => {
           ] 
         },
         { 
-          label: 'Comisión Disciplinaria', 
+          label: 'Registro Jornada', 
           icon: Gavel, 
           path: '/admin/disciplinary',
           subItems: [
-            { label: 'Reportes Arbitrales', path: '/notfoundgage/not-found-page' },
+            { label: 'Registro Jornada', path: '/soccermatch/not-found-page' },
             { label: 'Sanciones Manuales', path: '/notfoundgage/not-found-page' }
           ] 
         },

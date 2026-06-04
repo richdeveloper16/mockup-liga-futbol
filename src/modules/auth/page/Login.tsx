@@ -72,7 +72,7 @@ const Login: React.FC = () => {
                   <Mail className="h-5 w-5 text-slate-600 group-focus-within:text-emerald-400 transition-colors" />
                 </div>
                 <input
-                  type="email"
+                  type="text"
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}

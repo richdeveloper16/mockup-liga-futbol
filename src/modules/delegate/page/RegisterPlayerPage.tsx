@@ -100,7 +100,19 @@ const RegisterPlayerPage = () => {
                 <input type="text" className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:border-emerald-500 outline-none transition-all" placeholder="Ej. Juan Carlos" />
               </div>
               <div className="space-y-2">
-                <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest ml-1">Apellidos</label>
+                <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest ml-1">Primer Apellido</label>
+                <input type="text" className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:border-emerald-500 outline-none transition-all" placeholder="Ej. Pérez García" />
+              </div>
+              <div className="space-y-2">
+                <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest ml-1">Segundo Apellido</label>
+                <input type="text" className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:border-emerald-500 outline-none transition-all" placeholder="Ej. Pérez García" />
+              </div>
+                <div className="space-y-2">
+                <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest ml-1">Correo</label>
+                <input type="text" className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:border-emerald-500 outline-none transition-all" placeholder="Ej. Pérez García" />
+              </div>
+              <div className="space-y-2">
+                <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest ml-1">Telefono</label>
                 <input type="text" className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:border-emerald-500 outline-none transition-all" placeholder="Ej. Pérez García" />
               </div>
               <div className="space-y-2">
